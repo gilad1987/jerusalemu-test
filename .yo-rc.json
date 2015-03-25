@@ -1,0 +1,21 @@
+{
+  "generator-xh": {
+    "config": {
+      "projectName": "jerusalemu",
+      "useBranding": true,
+      "extension": "html",
+      "reloader": "BrowserSync",
+      "server": false,
+      "proxy": "localhost",
+      "cssPreprocessor": "LIBSASS",
+      "ignoreDist": true,
+      "isWP": false,
+      "features": [
+        "useSprites",
+        "useBootstrap",
+        "useModernizr",
+        "useCSS3Pie"
+      ]
+    }
+  }
+}
