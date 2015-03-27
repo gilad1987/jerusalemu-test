@@ -17,6 +17,8 @@ body {
   font-family: $font-arial;
   font-size: $font-size;
   line-height: $font-line-height;
+  background: #eae2d7;
+  color:#97866f;
 }
 
 a {
@@ -25,6 +27,15 @@ a {
 
   &:hover {
     color: $color-red;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
+
+.bold{font-weight: bold}
+.pink-color{color:#e61052}
+.common-border-radius{border-radius: 5px; overflow: hidden;}
+i.icon{display: inline-block}
+i.icon.social{width:22px; height: 22px; background-image: url('../img/common/sprites@1x.png')}
+i.icon.facebook{background-position: 0 0}
+i.icon.twitter{background-position: -35px 0 }
+i.icon.google-plus{background-position: -70px 0 }
