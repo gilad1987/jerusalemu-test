@@ -113,6 +113,7 @@ header.main-header{
   .gallery-wrapper{
     width:600px; background-color: #c9bba9; height: 170px; position: relative;   overflow: inherit;   box-shadow: 1px 1px 1px #ded6cc;
     img{margin:0 10px}
+    .images-wrapper{overflow: hidden; }
     .arrow{
       background: #ee1c5d; width:41px; height:55px; position: absolute; top: 57px; box-shadow: 1px 1px 1px #ab9f90;
       .icon{

@@ -14,5 +14,7 @@
     "bootstrap": "^3.3.2",
     "jquery": "^1.11.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jquery-colorbox": "~1.6.0"
+  }
 }
