@@ -1,4 +1,4 @@
-$sprite-1x-icons: 0px 0px 0px 0px 92px 60px 92px 60px '../../../dist/img/common/sprites@1x.png';
+$sprite-1x-icons: 0px 0px 0px 0px 92px 127px 92px 127px '../../../dist/img/common/sprites@1x.png';
 
 @mixin sprite-width($sprite) {
   width: nth($sprite, 5);
