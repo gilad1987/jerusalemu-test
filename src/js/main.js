@@ -51,28 +51,45 @@
             var interval,
                 time = 2000,
                 imageCount = 4,
-                counter = 0;
+                counter = 0,
+                playing;
 
 
+            playing = false;
+
+            function stopInterval(){
+
+                if(playing){
+                    clearInterval(interval);
+                    $.colorbox.close();
+                    playing = false;
+                }
+
+            }
 
             function onInterval(){
                 if(counter==imageCount){
-                    clearInterval(interval);
-                    $.colorbox.close();
+                    stopInterval();
                 }
 
                 $.colorbox.next();
                 counter++;
             }
 
+
             interval = setInterval(onInterval,time);
 
+            playing = true;
 
+            $(document).bind('cbox_closed', function(){
+                stopInterval();
+            });
         }
 
         $(document).bind('cbox_complete', function(){
             startIntervalOnPageLoad();
         });
+
         $('.gallery-wrapper a').colorbox();
         $('.images-wrapper a:first').trigger('click');
     }
