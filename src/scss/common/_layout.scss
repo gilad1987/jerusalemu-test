@@ -6,21 +6,27 @@
 .container {
   position: relative;
   width: $container-width + 2 * $container-padding;
-  padding: 0 $container-padding;
+  padding: 40px 0px 0px 0px;
   margin: 0 auto;
 }
 
 /* Header */
-.header {
-  header.logo{
-    h1{
-      margin: 0;
-      .company{font-size: 40px; display: block;}
-      .sub-title{color:#2a1f0f; font-size: 11px;}
-    }
-
+header.main-header{
+  padding-left: 20px;
+  .logo{
+    max-width: 179px; float:left; margin-right: 166px;
+  }
+  .banner{
+    max-width: 234px; float:left; position: relative; top: -3px; margin-right:60px;
+  }
+  .search{
+    float:right;  width:300px; padding-top: 15px;
+    input{border:none}
+    input[type="text"]{width:211px; height:29px; text-indent: 11px;   margin-right: 10px;}
+    input[type="button"]{width:75px; height:29px; color:#ffffff; line-height: 25px; font-size: 11px;}
   }
 }
+
 
 
 .site-name {
@@ -36,7 +42,7 @@
 /* Navigation */
 
 .navigation{
-  margin-bottom: 40px;
+  margin: 40px 0px;
   ul{
 
     list-style: none;
@@ -106,6 +112,7 @@
 
   .gallery-wrapper{
     width:600px; background-color: #c9bba9; height: 170px; position: relative;   overflow: inherit;   box-shadow: 1px 1px 1px #ded6cc;
+    img{margin:0 10px}
     .arrow{
       background: #ee1c5d; width:41px; height:55px; position: absolute; top: 57px; box-shadow: 1px 1px 1px #ab9f90;
       .icon{
@@ -120,7 +127,7 @@
       .icon{background-position: 0px -70px;}
     }
     .inner{
-      padding: 21px 30px;
+      padding: 21px 26px;
     }
   }
 
