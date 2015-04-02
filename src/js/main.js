@@ -16,9 +16,9 @@
      * Init Function
      */
     init: function() {
-        App.initMainGallery({
-            rel:'main-gallery'
-        });
+        //App.initMainGallery({
+        //    rel:'main-gallery'
+        //});
       // App.feature1();
       // App.feature2();
     },
